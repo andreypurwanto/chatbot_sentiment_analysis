@@ -23,7 +23,7 @@ please refer to homework_sentiment_analysis
 task :
 - create sentiment analysis modeling with airline_sentiment_clean_train.csv (text preprocess -> vectorize -> modeling), can use anything to preprocess, anything to vectorize, any ML model. *label on airline_sentiment column
 - check airline_sentiment_clean_test.csv, predict with your model.
-- try to find what some insight (minimal 1) in airline_sentiment_clean_test.csv with your sentiment analysis model (for example : most negative sentiment happens because delay flight, need to focus on that).
+- try to find what some insight (minimal 1) in airline_sentiment_clean_test.csv with your sentiment analysis model (for example : most negative sentiment happens contains word delay and/or flight, need to focus on that).
 - put together in notebook. 
 
 need to submit : notebook, test data predicted in csv.
